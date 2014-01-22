@@ -1,11 +1,12 @@
 #include "utils.h"
 #include "tabli.h"
+#include <iostream>
 
 int main()
 {
 
 int* 	tab=createTab();
-showtab(tab,10);
+showTab(tab,10);
 
 
 //char znak;

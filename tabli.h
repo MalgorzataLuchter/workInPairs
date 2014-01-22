@@ -2,7 +2,7 @@
 
  int * createTab()
  {
-	int* tab=new double[10];
+	int* tab=new int[10];
 	int i;
 	
 	for (i=0;i<10; i++){

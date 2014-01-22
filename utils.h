@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tabli.h"
+
+using namespace std;
 
 
 void showTab(int* tab, int size){
