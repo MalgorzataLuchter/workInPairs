@@ -1,7 +1,8 @@
 #include <iostream>
 
- double * createTab(){
-	double* tab=new double[10];
+ int * createTab()
+ {
+	int* tab=new double[10];
 	int i;
 	
 	for (i=0;i<10; i++){

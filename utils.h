@@ -2,7 +2,7 @@
 #include "tabli.h"
 
 
-boid showTab(double* tab, int size){
+void showTab(int* tab, int size){
 	
 	for (int i=0;i<size;i++){
 		
@@ -11,8 +11,8 @@ boid showTab(double* tab, int size){
 	}
 }
 
-double sumValue(double* tab, int size){
-	double suma=0;
+int sumValue(inte* tab, int size){
+	int suma=0;
 	
 	for (int i=0;i<size;i++){
 		
