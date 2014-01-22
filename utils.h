@@ -10,3 +10,14 @@ boid showTab(double* tab, int size){
 		
 	}
 }
+
+double sumValue(double* tab, int size){
+	double suma=0;
+	
+	for (int i=0;i<size;i++){
+		
+		suma+=tab[i];
+	}
+	return suma;
+	
+}
